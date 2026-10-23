@@ -1,0 +1,15 @@
+{
+  "extends": "../mobile/tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "react": ["../mobile/node_modules/@types/react/index.d.ts"],
+      "react/*": ["../mobile/node_modules/@types/react/*"],
+      "react-native": ["../mobile/node_modules/react-native/types_generated/index.d.ts"],
+      "expo-secure-store": ["../mobile/node_modules/expo-secure-store/build/SecureStore.d.ts"],
+      "expo-status-bar": ["../mobile/node_modules/expo-status-bar/build/StatusBar.d.ts"]
+    },
+    "typeRoots": ["../mobile/node_modules/@types"],
+    "types": ["react", "node"]
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

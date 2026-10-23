@@ -1,0 +1,15 @@
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.expo/
+**/.expo-web-validation/
+**/.expo-web-validation-final/
+**/web-build/
+**/.env
+**/.env.*
+!**/.env.example
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
