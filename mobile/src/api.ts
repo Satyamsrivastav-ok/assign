@@ -2,7 +2,7 @@ import { Platform } from 'react-native';
 
 const configuredBase =
   Platform.OS === 'web'
-    ? process.env.EXPO_PUBLIC_API_URL_WEB ?? 'http://localhost:4000'
+    ? process.env.EXPO_PUBLIC_API_URL_WEB ?? 'https://assign-8by4.onrender.com'
     : process.env.EXPO_PUBLIC_API_URL ??
       (Platform.OS === 'android' ? 'http://10.0.2.2:4000' : 'http://localhost:4000');
 const BASE = configuredBase.replace(/\/+$/, '');
